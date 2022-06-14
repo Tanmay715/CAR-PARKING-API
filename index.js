@@ -8,6 +8,6 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 
-app.use("/users", routes);
+app.use("/", routes);
 
 app.listen(PORT, () => console.log("Server is running"));
